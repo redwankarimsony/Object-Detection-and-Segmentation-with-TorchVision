@@ -85,4 +85,6 @@ model = FasterRCNN(backbone,
 
 In this case, we want to fine-tune from a pre-trained model, given that our dataset is very small. So I used the following approach number 1 mentioned above. Here we want to also compute the instance segmentation masks, so I have used Mask R-CNN:
 
+# [Link to the Working Notebook:](https://github.com/redwankarimsony/Object-Detection-and-Segmentation-with-TorchVision/blob/main/torchvision_finetuning_instance_segmentation.ipynb)
+
 
